@@ -1,0 +1,7 @@
+get_users_by_page_end_point: /api/users
+x_api_key: reqres_d670c765cc4d4ff1a3602649e8b7d228
+page: 2
+expected_result:
+  total_pages: 2
+  status_code: 200
+  email: george.edwards@reqres.in
