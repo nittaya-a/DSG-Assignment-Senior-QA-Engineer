@@ -32,6 +32,9 @@ Go To Customers Page
     SeleniumLibrary.Wait Until Element Is Visible    locator=${common.btn_customers}
     ...                                              error=The Customers button is not visible.
     SeleniumLibrary.Click Element    ${common.btn_customers}
+    SeleniumLibrary.Wait Until Element Is Visible    locator=${customers.txt_search_customer}
+    ...                                              timeout=${global_timeout}
+    ...                                              error=The Customers page is not visible.
 
 Go To Open Account Page
     SeleniumLibrary.Wait Until Element Is Visible    locator=${common.btn_open_account}

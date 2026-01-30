@@ -1,5 +1,5 @@
 *** Settings ***
-Resource                    ../resources/keywords/api/api_common.resource
+Resource                    ../../resources/keywords/api/api_common.resource
 
 *** Test Cases ***
 Validate Total Pages Status Code 200 And Expected Email From Get Users By Page Request
